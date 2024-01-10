@@ -105,8 +105,8 @@ const Graph = () => {
   };
 
   const options = {
-    Plugins: {
-      legend: true,
+    plugins: {
+      legend: false,
     },
     scales: {
       y: {
