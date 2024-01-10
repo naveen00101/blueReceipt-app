@@ -1,0 +1,164 @@
+.metrics-container{
+    background-color: rgb(255, 255, 255);
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: #8a95ad;
+    justify-content: space-between;
+    padding: 0px 40px;
+    padding-left: 00px;
+    flex-wrap: wrap;
+}
+
+.heading-sec{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 0px;
+    
+}
+
+.metric-heading{
+    font-weight: 400;
+    
+    margin: 0px;
+    margin-right: 20px;
+    
+}
+.plus{
+    background-color: #ebf7f0;
+    color: #3b7750;
+}
+
+.minus{
+    background-color: #fdeaea;
+    color: #cf5b59;
+}
+
+.percent-con{
+    
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    height: 30px;
+    /* width: 60px; */
+    padding: 0px 8px;
+    justify-content: center;
+    /* margin-bottom: 0px; */
+}
+
+
+.Amount-container{
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #081326;
+}
+
+.order-count{
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.m-c-1{
+    border-left: 1px solid #e6e1e1;
+    padding-left: 40px;
+}
+
+@media screen and (max-width : 412px) {
+    .metrics-container{
+        padding: 10px;
+        margin: 0px;
+        justify-content: space-around;
+        border: none;
+    }
+
+    .m-c-1{
+        /* width: 50%; */
+        padding: 0px;
+        border: none;
+    }
+
+    .metric-heading{
+        font-size: 13px;
+    }
+
+    .percent-con{
+        font-size: 13px;
+        height: 18px;
+    }
+
+    .Amount-container{
+        font-size: 13px;
+    }
+
+    .order-count{
+        font-size: 13px;
+    }
+}
+
+@media screen and ((min-width : 413px )and (max-width : 800px)) {
+    .metrics-container{
+        padding: 10px;
+        margin: 0px;
+        justify-content: space-around;
+        border: none;
+    }
+
+    .m-c-1{
+        /* width: 50%; */
+        padding: 0px;
+        border: none;
+    }
+
+    .metric-heading{
+        font-size: 13px;
+    }
+
+    .percent-con{
+        font-size: 13px;
+        height: 18px;
+    }
+
+    .Amount-container{
+        font-size: 13px;
+    }
+
+    .order-count{
+        font-size: 13px;
+    }
+}
+
+@media screen and ((min-width : 801px )and (max-width : 1200px)) {
+    .metrics-container{
+        padding: 10px;
+        margin: 0px;
+        justify-content: space-around;
+        border: none;
+    }
+
+    .m-c-1{
+        
+        padding: 0px;
+        border: none;
+    }
+
+    .metric-heading{
+        font-size: 13px;
+    }
+
+    .percent-con{
+        font-size: 13px;
+        height: 18px;
+    }
+
+    .Amount-container{
+        font-size: 13px;
+    }
+
+    .order-count{
+        font-size: 13px;
+    }
+}
